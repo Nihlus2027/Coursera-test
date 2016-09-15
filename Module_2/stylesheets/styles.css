@@ -2,52 +2,99 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
+
 h1 {
   font-family: Georgia, serif;
   text-align: center;
   margin: 15px;
+  text-shadow: 3px 3px 2px lightgrey;
+  font-size: 175%;
 }
 
-Article {
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h3 {
+  display: inline-block;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+  font-size: 125%;
+  text-align: center;
+  text-shadow: 3px 3px 2px #d3d3d3;
   border: 1px solid black;
-  background-color: darkgray;
-  margin-bottom: 20px;
-  margin-right: 5px;
-  margin-left: 5px;
+  padding: 5px;
+  width: 150px;
+  margin-top: -13px;
+  margin-bottom: 0;
+  position: absolute;
+  right: -1px;
+  top: 12px;
 }
 
 p {
-  clear: both;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  width: 90%;
+  margin: 10px;
 }
 
-#Hamlet1 {
-  background-color: #a20000;
-  float: right;
+.section {
+  background-color: lightgray;
+  border: 1px solid black;
+  position: relative;
+  min-height: 200px;
+  margin-right: 10px;
+  margin-left: auto;
+  margin-bottom: 15px;
+  padding: 20px;
+  padding-top: 35px;
+  box-sizing: border-box;
+  min-width: 300px;
 }
 
-#HenryV1 {
-  background-color: #300099;
-  float: right;
+#Hamlet {
+  background-color: #99f;
 }
 
-#Puck1 {
-  background-color: #0fc;
-  float: right;
+#Hamlet:hover {
+  background-color: #fff;
+  color: #99f;
+  cursor: pointer;
+}
+
+#HenryV {
+  background-color: #f93;
+}
+
+#HenryV:hover {
+  background-color: #fff;
+  color: #f93;
+  cursor: pointer;
+}
+
+#Macbeth {
+  background-color: #5f9ea0;
+}
+
+#Macbeth:hover {
+  background-color: #fff;
+  color: #5f9ea0;
+  cursor: pointer;
 }
 
 /***** Framework *****/
 .row {
   width: 100%;
+  margin: 0;
+  padding: 15px;
 }
 
 /********** Large Screens/Laptops **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -91,7 +138,6 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-md-1 {
     width: 8.33%;
@@ -135,7 +181,6 @@ p {
 @media (max-width: 767px) {
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-md-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-sm-1 {
     width: 8.33%;
