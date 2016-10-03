@@ -1,0 +1,38 @@
+body {
+	font-size: 16px;
+	background-color: #328CC1
+}
+/* HEADER */
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Exo', sans-serif;
+  color: #D9B310;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #a9a9a9;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.icon-bar {
+	color: #D9B310;
+}
+li {
+	text-align: center;
+}
+.page-header {
+	color: #D9B310;
+	text-shadow: 1px 1px 1px #a9a9a9;
+}
+.jumbotron {
+	background-color:#083C5D
+}
+p {
+	color: #D9b310
+}
